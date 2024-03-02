@@ -767,6 +767,80 @@ width: 120px;
 }
 
 
+.FooterLinks ul{
+    all: unset;
+    list-style: none;
+}
+
+.FooterLinks ul a{
+    color: #151418;
+}
+
+
+.Newsletter{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.Newsletter form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 1em;
+}
+
+.Newsletter form input{
+    
+    all: unset;
+    margin: 1em 0;
+    padding: 1em;
+    border-bottom: 1px solid #151418;
+    
+}
+
+.Newsletter form button{
+    
+    all: unset;
+    margin: 1em 0;
+    padding: .5em;
+    border-radius: .5em;
+    border: 1px solid #151418;
+    text-align: center;
+    
+}
+
+
+.SocialIcons ul {
+    all: unset;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.SocialIcons ul li {
+    all: unset;
+    list-style: none;
+    margin: 0em .5em 1em;
+    height: 2em;
+    width: 2em;
+    color: #151418;
+    border: 2px solid #151418;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    transition: all ease 0.3s;
+}
+
+
+.SocialIcons ul li:hover {
+    color: white;
+    background: #151418;
+    cursor: pointer;
+}
 
 
 @media (width >= 768px) {
