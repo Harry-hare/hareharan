@@ -842,6 +842,10 @@ width: 120px;
     cursor: pointer;
 }
 
+.copyright .row{
+    all: unset;
+}
+
 
 @media (width >= 768px) {
     .textLine1 h1{
